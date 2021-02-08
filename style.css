@@ -1,17 +1,14 @@
 body
 {
-    background-color: auto;
+    background-color: #faebd6;
+    font-size: 20px;
 }
-h1{
-    color: #0000ff;
-    text-align: center;
+h1 {
+    color:#ff0000;
 }
-p {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    width: 900px;
+.pierwszy {
+    color: #a42423;
 }
-span{
-    color: #ff0000;
+.drugi {
+    color:#00008f;
 }

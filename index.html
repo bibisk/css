@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ćwiczenia - CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- (div#kwadrat$)*4 -->
-
-<div id="kwadrat1"></div>
-<div id="kwadrat2"></div>
-<div id="kwadrat3"></div>
-<div id="kwadrat4"></div>        
+<!-- 
+main>section>(header>h1+p.pierwszy)+(article>(h2+p.drugi)+(li.item${item}*5))
+ -->
+ <main>
+     <section>
+         <header>
+             <h1>Ćwiczenia z CSS</h1>
+             <p class="pierwszy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                 Iusto repellat porro, voluptas deleniti aspernatur reprehenderit tempora quos temporibus iure dolorem?</p>
+         </header>
+         <article>
+             <h2>Kolory tła i czcionki</h2>
+             <p class="drugi">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> 
+                 Exercitationem eaque delectus tempore nisi eveniet. <br>
+                 Adipisci expedita laborum magni saepe earum.</p>
+             <li class="item1">item</li>
+             <li class="item2">item</li>
+             <li class="item3">item</li>
+             <li class="item4">item</li>
+             <li class="item5">item</li>
+         </article>
+     </section>
+ </main>
 </body>
 </html>

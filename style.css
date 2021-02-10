@@ -1,24 +1,57 @@
-body
-{
+body {
     background-color: #778899;
     font-family: sans-serif;
     text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
     letter-spacing: 2px;
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1 + h3 {
-    color: #1310a8;
-}
-
-h3 + p {
-    color: #9dc5dd;
 }
 h1 {
-    background-color: #055a1a;
+    background-color: aquamarine;
+    font-size: 40px;
+    color: #0a2642;
+    padding: 5px;
 }
-
-h1 ~ h3 {
-    background-color: #2e0053;
+h2 {
+    background-color: #532445;
+    font-size: 30px;
+    color: #ac3e90;
+    padding: 5px;
 }
+.pierwszy {
+    background-color: #1c7462;
+    color: white;
+    padding: 5px;
+}
+.drugi {
+    background-color: #742424;
+    color: #beacd3;
+    padding: 5px;
+}
+div {
+    width: 330px;
+    height: 30px;
+    margin-bottom: 2px;
+    padding: 2px;
+    font-size: 20px;
+}
+.item1 {
+    background-color: #39056457;
+    color: #9dcaf7
+}
+.item2 {
+    background-color: #330d9b;
+    color: #a596ce
+}
+.item3 {
+    background-color: #644991 ;
+    color: #c6e2fd
+}
+.item4 {
+    background-color: #1d0f35;
+    color: #0080ff
+}
+.item5 {
+    background-color: #1f0050;
+    color: #9366db
+} 
